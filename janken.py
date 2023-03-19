@@ -1,5 +1,10 @@
 import random
 import time
+# 今日の日付を表示
+import datetime
+dt = datetime.datetime.today() 
+d = dt.date()
+print(d)
 
 # handsというリストに、じゃんけんの手を覚（おぼ）えておいてもらう
 hands=['グー','チョキ','パー']
